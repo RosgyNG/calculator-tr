@@ -58,8 +58,8 @@ def carpma():
 def bolme():
     x = input("İlk sayıyı yaz: ")
     y = input("İkinci sayıyı yaz: ")
-    cevap = int(x) / int(y)
-    print(Fore.GREEN + "Cevap: " + str(int(cevap)))
+    cevap = float(x) / float(y)
+    print(Fore.GREEN + "Cevap: " + str(float(cevap)))
 
 
 def kupe_donusturme():
