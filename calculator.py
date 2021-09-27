@@ -38,39 +38,39 @@ def toplama():
     x = input("İlk sayıyı yaz: ")
     y = input("İkinci sayıyı yaz: ")
     cevap = int(x) + int(y)
-    print("Cevap: " + str(cevap))
+    print(Fore.GREEN + "Cevap: " + str(cevap))
 
 
 def cikarma():
     x = input("İlk sayıyı yaz: ")
     y = input("İkinci sayıyı yaz: ")
     cevap = int(x) - int(y)
-    print("Cevap: " + str(cevap))
+    print(Fore.GREEN + "Cevap: " + str(cevap))
 
 
 def carpma():
     x = input("İlk sayıyı yaz: ")
     y = input("İkinci sayıyı yaz: ")
     cevap = int(x) * int(y)
-    print("Cevap: " + str(cevap))
+    print(Fore.GREEN + "Cevap: " + str(cevap))
 
 
 def bolme():
     x = input("İlk sayıyı yaz: ")
     y = input("İkinci sayıyı yaz: ")
     cevap = int(x) / int(y)
-    print("Cevap: " + str(int(cevap)))
+    print(Fore.GREEN + "Cevap: " + str(int(cevap)))
 
 
 def kupe_donusturme():
 
     def alandan_kupe_donustur(x):    # Karenin alanını küpe dönüştürme
         answer = int(x) * int(x) * int(x)
-        print("Cevap: " + str(answer))
+        print(Fore.GREEN + "Cevap: " + str(answer))
 
     def kenardan_kupe_donustur(x):    # Kenar uzunluğu küpe dönüştürme
         answer = int(x) * int(x)
-        print("Cevap: " + str(answer))         
+        print(Fore.GREEN + "Cevap: " + str(answer))         
 
     selection2 = input("\na) Karenin bir kenarınının uzunluğu\nb) Karenin alanı \nNeyi girmek istersiniz? (Seçenek harfi giriniz): ")
 
