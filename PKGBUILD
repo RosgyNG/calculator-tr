@@ -1,4 +1,4 @@
-pkgname='calculator-tr-git'
+pkgname='calculator-tr'
 pkgver=0.1
 pkgrel=1
 pkgdesc="Basic turkish calculator writed in Python"
